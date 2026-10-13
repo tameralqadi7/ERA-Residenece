@@ -1,0 +1,4 @@
+/* Style #11 Attrs:  */
+.loc-w_decor {
+    clip-path: polygon(var(--_special-units---offset-l) 0, calc(100% - var(--_special-units---offset-r)) 0%, 100% 101%, 0 101%);
+  }

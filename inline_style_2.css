@@ -1,0 +1,27 @@
+/* Style #2 Attrs:  */
+[data-prevent-flicker] {
+    visibility: hidden;
+  }
+
+  [data-master-preloader],
+  [data-preloader] {
+    display: block;
+  }
+
+  @media screen and (orientation: landscape) and (max-width: 991px) and (pointer: coarse) and (hover: none) {
+    .landscape-cover {
+      display: block;
+    }
+
+    body {
+      overflow: hidden;
+    }
+  }
+
+  .unset-all{
+     all: unset;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }

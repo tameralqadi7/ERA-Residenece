@@ -1,0 +1,58 @@
+/* Style #6 Attrs:  */
+/** -------------------------------------------------
+   * MASKS
+   * ------------------------------------------------- */
+
+  .arch-intro-s_bg_l,
+  .arch-intro-s_bg_r {
+    clip-path: inset(50% 50% 50% 500%);
+  }
+
+  .cookies_card,
+  .floating-tip-card,
+  .filter_select_drop-down,
+  .apart-card_shadow {
+    box-shadow:
+      0 224px 63px 0 rgba(0, 0, 0, 0),
+      0 143px 57px 0 rgba(0, 0, 0, 0.01),
+      0 81px 48px 0 rgba(0, 0, 0, 0.04),
+      0 36px 36px 0 rgba(0, 0, 0, 0.07),
+      0 9px 20px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  @media (min-width: 992px) {
+    .lot-s_info_t {
+      mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 5.29%, #fff 84.62%, rgba(255, 255, 255, 0) 100%);
+      -webkit-mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 5.29%, #fff 84.62%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+
+  .contact-s_map_pin_c {
+    --offset-y: calc(100% - var(--8px));
+    --tail-l: calc(100% - (var(--16px) + var(--2px) + var(--16px)));
+    --tail-c: calc(100% - (var(--16px) + var(--2px) + (var(--16px) / 2)));
+    --tail-r: calc(100% - (var(--16px) + var(--2px)));
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% var(--offset-y), var(--tail-r) var(--offset-y), var(--tail-c) 100%, var(--tail-l) var(--offset-y), 0% var(--offset-y));
+  }
+
+  [data-preloader] {
+    --arch-w: 36vw;
+    --arch-h: calc(var(--arch-w) / (560 / 2592));
+    --arch-y: 100vh;
+
+    mask-image: linear-gradient(white, white), linear-gradient(white, white), linear-gradient(white, white), url('https://cdn.prod.website-files.com/6a068da7ad91b057365bf967/6a23fd3e3546e70bdf8420a0_preloader_arch-l.svg');
+    mask-size:
+      calc(50% - (var(--arch-w) / 2) + 2px) 100%,
+      calc(var(--arch-w) + 4px) calc(var(--arch-y) + 2px),
+      calc(50% - (var(--arch-w) / 2) + 2px) 100%,
+      var(--arch-w) var(--arch-h);
+    mask-repeat: no-repeat;
+    mask-position:
+      left top,
+      center top,
+      right top,
+      center var(--arch-y);
+    mask-composite: add;
+    -webkit-mask-composite: source-over;
+  }

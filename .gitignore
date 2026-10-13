@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment & OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Screenshots (optional)
+live_*.png
+rebuild_*.png

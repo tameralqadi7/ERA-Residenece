@@ -1,0 +1,13 @@
+{
+  "name": "era-residence-rebuild",
+  "version": "1.0.0",
+  "description": "1:1 Rebuild of ERA Residence (https://www.era-residence.com/)",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "node test_rebuild.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.4.0"
+  }
+}

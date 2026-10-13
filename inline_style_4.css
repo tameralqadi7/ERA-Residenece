@@ -1,0 +1,19 @@
+/* Style #4 Attrs:  */
+:root {
+    --dur-s: 0.4s;
+    --dur-m: 0.8s;
+    --dur-l: 1.2s;
+
+    --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+    --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
+    --ease-in: cubic-bezier(0.5, 0, 0.75, 0);
+    --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+    --ease-write: cubic-bezier(0.333, 0, 0.667, 1);
+
+    --_100svh: 100vh;
+  }
+
+  html {
+    font-size: 1vw;
+    background-color: var(--_colors---base-0--primary);
+  }

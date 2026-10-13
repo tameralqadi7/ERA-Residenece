@@ -1,0 +1,31 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ambroise-francois-std:
+ *   - http://typekit.com/eulas/0000000000000000773598f9
+ * sloop-script-three:
+ *   - http://typekit.com/eulas/00000000000000007758dac7
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-07-06 13:16:29 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=pig8glj&ht=tk&f=14275.30178&a=262094886&app=typekit&e=css");
+
+@font-face {
+font-family:"ambroise-francois-std";
+src:url("https://use.typekit.net/af/02a0c4/0000000000000000773598f9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/02a0c4/0000000000000000773598f9/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/02a0c4/0000000000000000773598f9/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sloop-script-three";
+src:url("https://use.typekit.net/af/ceca40/00000000000000007758dac7/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/ceca40/00000000000000007758dac7/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/ceca40/00000000000000007758dac7/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-ambroise-francois-std { font-family: "ambroise-francois-std",serif; }
+.tk-sloop-script-three { font-family: "sloop-script-three",sans-serif; }

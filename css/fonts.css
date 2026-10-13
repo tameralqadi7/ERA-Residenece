@@ -1,0 +1,42 @@
+/* ==========================================================================
+   ERA Residence Typography Fonts
+   Exact Typekit & Webflow Font Face Declarations
+   ========================================================================== */
+
+@font-face {
+  font-family: 'ambroise-francois-std';
+  src: url('../fonts/ambroise-francois-std.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sloop-script-three';
+  src: url('../fonts/sloop-script-three.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('../fonts/MaisonNeueExt-Book.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('../fonts/MaisonNeueExt-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --_fonts---font-body: "Maison Neue Extended", Arial, sans-serif;
+  --_fonts---font-display: ambroise-francois-std, sans-serif;
+  --_fonts---font-accent: sloop-script-three, sans-serif;
+}
